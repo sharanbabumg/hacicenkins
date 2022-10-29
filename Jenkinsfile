@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
- //       git([url: 'https://github.com/sharanbabumg/hacicenkins.git', branch: 'master', credentialsId: 'github'])
+        git([url: 'https://github.com/sharanbabumg/hacicenkins.git', branch: 'master', credentialsId: 'github'])
  	checkout scm
 
       }
